@@ -1,0 +1,17 @@
+@keyframes dropdown {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 200px;
+    }
+}
+
+.dropdown-menu{
+    height: 0px;
+    overflow: hidden;
+}
+
+#drp:hover>.dropdown-menu{
+    animation: dropdown 1s infinite;
+}
